@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[44,)"
+license = "GNU GPL 3.0"
+
+[[mods]]
+modId = "simplicity"
+version = "${file.jarVersion}"
+displayName = "Simplicity"
+logoFile = "simplicity.png"
+credits = "Spare (Texture Artist)"
+authors = "beep67 (Main programmer)"
+description = '''
+A mod that adds simplistic featuresto the game.
+'''
+
+[[dependencies.simplicity]]
+modId = "forge"
+mandatory = true
+versionRange = "[44,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.simplicity]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.3,1.20)"
+ordering = "NONE"
+side = "BOTH"

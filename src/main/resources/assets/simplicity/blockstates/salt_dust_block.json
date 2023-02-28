@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "simplicity:block/salt_dust_block"
+    }
+  }
+}
